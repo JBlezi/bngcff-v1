@@ -1,0 +1,45 @@
+.container {
+  margin: 100px;
+}
+
+#about {
+  font-family: 'Noto Sans SC', sans-serif;
+  background-image: url("Banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+#about h1 {
+  font-size: 70px;
+}
+
+#about h3 {
+  font-size: 40px;
+  color: black;
+}
+
+#about ul {
+  list-style-type: none;
+}
+
+#about ul .bullet {
+  list-style-type: disc;
+  margin-left: 1em;
+}
+
+.no-style {
+  text-decoration: none;
+  color: black;
+}
+
+#banner-design-about {
+  background-image: url("Banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
