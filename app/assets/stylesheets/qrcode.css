@@ -1,0 +1,10 @@
+.qrcode {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.container-qr {
+  width: 100vh;
+  height: 100vw;
+}

@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0px 50px;
+}
+
+.f-link {
+  font-size: 24px;
+  transition: 300ms;
+  margin-right: 5px;
+}
+
+.name:hover {
+  transform: scale(1.5);
+  transition: 300ms;
+  color: #a4c7ff;
+}
+
+.f-link:hover {
+  transform: scale(1.5);
+  transition: 300ms;
+  color: #a4c7ff;
+}

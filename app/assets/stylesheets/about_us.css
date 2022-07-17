@@ -16,7 +16,7 @@
   font-size: 70px;
 }
 
-#about h3 {
+#about h4 {
   font-size: 40px;
   color: black;
 }
@@ -35,6 +35,11 @@
   color: black;
 }
 
+.no-style:hover {
+  text-decoration: none;
+  color: black;
+}
+
 #banner-design-about {
   background-image: url("Banner.png");
   background-position: center;
@@ -42,4 +47,8 @@
   background-size: cover;
   width: 100vw;
   height: 100vh;
+}
+
+.description {
+
 }
