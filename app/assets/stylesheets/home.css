@@ -21,9 +21,8 @@
 }
 
 #banner-headers h3 {
-  font-size: 40px;
+  font-size: 25px;
   color: black;
-  text-shadow: 1px 1px 1px #a4c7ff;
 }
 
 .menu {
@@ -90,4 +89,8 @@ input#hamburg {display:none}
   border-radius: 10px;
   padding: 10px 20px;
   min-width: 150px;
+}
+
+.flags {
+  font-size: 40px;
 }

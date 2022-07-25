@@ -1,3 +1,32 @@
-<div class="container">
-  <img class="qrcode" src="IMG_2667.png">
+
+
+<div id="banner-design">
+    <div class="row menu">
+      <input type="checkbox" id="hamburg">
+      <label for="hamburg" class="hamburg">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+        <ul class="hidden-menu">
+          <li> <%= link_to "Home", root_path, class: "no-style" %></li>
+          <li> <%= link_to "Submissions", submissions_path, class: "no-style" %></li>
+          <%# <li>Tickets</li> %>
+          <%# <li>Program</li> %>
+          <li> <%= link_to "About Us", about_path, class: "no-style" %></li>
+        </ul>
+      </label>
+    </div>
+    <div class="language-toggle">
+      <div class="language-inline">
+        <div>
+          <%# <h3><%= link_to "🇨🇳", homecn_path, class: "no-style flags" %></h3>
+        </div>
+        <div>
+          <%# <h3><%= link_to "🇩🇪", homecn_path, class: "no-style flags" %></h3>
+        </div>
+      </div>
+    </div>
+    <div class="container-qr">
+      <%# <img class="qrcode" src="/Users/juliusblezinger/code/JBlezi/Izzy/NewGenFilmFestival/app/assets/images/shot_qr.png"> %>
+    </div>
 </div>

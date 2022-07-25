@@ -6,7 +6,7 @@
       <span class="line"></span>
       <span class="line"></span>
       <ul class="hidden-menu">
-        <li> <%= link_to "Submissions", submissions_path, class: "no-style" %></li>
+        <li> <%= link_to "About Us", about_path, class: "no-style" %></li>
         <%# <li>Tickets</li> %>
         <%# <li>Program</li> %>
         <li> <%= link_to "Home", root_path, class: "no-style" %></li>
@@ -16,22 +16,21 @@
     <div class="language-toggle">
       <div class="language-inline">
         <div>
-          <h3><%= link_to "🇨🇳", aboutcn_path, class: "no-style flags" %></h3>
+          <h3><%= link_to "🇬🇧", submissions_path, class: "no-style flags" %></h3>
         </div>
         <div>
-          <h3><%= link_to "🇩🇪", aboutcn_path, class: "no-style flags" %></h3>
+          <h3><%= link_to "🇨🇳", submissionscn_path, class: "no-style flags" %></h3>
         </div>
       </div>
     </div>
   <div class="container">
-    <h1>ABOUT US</h1>
+    <h1>Submissions</h1>
+    <h3>Submit your film for screening</h3>
+    <p>We are working with our partner platform Filmfreeway to let you submit your favourite movie for screening in the festival.</p>
+    <p>Just follow this link and submit your movie on the platform!</p>
     <br>
-    <div class="description">
-      <p>New Generation International Film Festival (New Gen) is a Berlin-based nonprofit organisation celebrating high-quality Chinese films with new and distinguished filmmakers, film enthusiasts, film industry professionals, related-field scholars and audiences around the world.</p>
-      <p>Acting as a springboard for creation, New Gen. is dedicated to discovering new talented filmmakers who are making the future of Chinese cinema. Focusing on interconnections between cinema and contemporary society, New Gen. encourages independent, proactive and innovative filmic expressions that showcase the diversity of Chinese culture and society. Believing in the power of film, New Gen aims to build a borderless exchange platform for cinematic culture through film screenings, audience discussions and expert panels.</p>
-      <p>New Gen. hopes to draw attention to new talented Chinese filmmakers and raise the profile of their underrepresented films, with the aspiration of contributing to the future of Chinese cinema, boosting the development of the local and global film industry and providing a sustainable platform for future dialogues between China and Europe.</p>
-    </div>
-    <br>
+    <%= link_to "Submit your movie", "https://filmfreeway.com/festivals", class: "button" %>
+    <%# <p style="font-size: 12px;">EARLYBIRD DEADLINE: 31 JULY, 2022 <br>REGULAR DEADLINE: 15 SEPTEMBER, 2022</p> %>
     <br>
   </div>
 </div>
