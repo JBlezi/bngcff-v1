@@ -23,3 +23,7 @@
   transition: 300ms;
   color: #a4c7ff;
 }
+
+.footer-links {
+  min-width: 100px;
+}

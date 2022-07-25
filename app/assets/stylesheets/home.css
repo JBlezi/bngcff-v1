@@ -1,3 +1,30 @@
+@media only screen and (max-width: 600px) {
+  #banner-headers h1 {
+    font-size: 20px;
+  }
+
+  #banner-headers {
+    margin: 50px;
+  }
+
+  #about h1 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .container {
+    margin: 100px 50px;
+  }
+
+  #banner-headers h3 {
+    font-size: 25px;
+    color: black;
+  }
+}
+
 #banner-design {
   background-image: url("Banner.png");
   background-position: center;
