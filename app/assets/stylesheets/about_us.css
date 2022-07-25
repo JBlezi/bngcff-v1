@@ -49,6 +49,10 @@
   height: 100vh;
 }
 
-.description {
+.flex {
+  display: flex;
+}
 
+.m-3 {
+  margin-right: 4px;
 }
