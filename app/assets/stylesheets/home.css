@@ -126,3 +126,7 @@ input#hamburg {display:none}
 .flags {
   font-size: 40px;
 }
+
+.hamburg {
+  z-index: 10;
+}
