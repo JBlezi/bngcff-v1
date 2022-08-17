@@ -27,6 +27,11 @@
   .footer {
     height: 50px;
   }
+
+  .language-toggle {
+    top: 0px !important;
+    right: 30px !important;
+  }
 }
 
 #banner-design {
@@ -129,4 +134,5 @@ input#hamburg {display:none}
 
 .hamburg {
   z-index: 10;
+  cursor: pointer;
 }

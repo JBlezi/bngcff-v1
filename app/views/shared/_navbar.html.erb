@@ -30,6 +30,10 @@
       <% elsif params["action"] == "aboutde"%>
         <li> <%= link_to "Einreichungen", submissionsde_path, class: "no-style" %></li>
         <li> <%= link_to "Home", homede_path, class: "no-style" %></li>
+      <% elsif params["action"] == "qrcode" %>
+        <li> <%= link_to "Home", root_path, class: "no-style" %></li>
+        <li> <%= link_to "Submissions", submissions_path, class: "no-style" %></li>
+        <li> <%= link_to "About Us", about_path, class: "no-style" %></li>
       <% else %>
         <li> <%= link_to "Einreichungen", submissionsde_path, class: "no-style" %></li>
         <li> <%= link_to "Über uns", aboutde_path, class: "no-style" %></li>
@@ -94,6 +98,13 @@
       </div>
       <div>
         <h3><%= link_to "🇬🇧", about_path, class: "no-style flags" %></h3>
+      </div>
+    <% elsif  params["action"] == "qrcode"%>
+      <div>
+        <%# <h3><%= link_to "🇨🇳", homecn_path, class: "no-style flags" %></h3>
+      </div>
+      <div>
+        <%# <h3><%= link_to "🇩🇪", homecn_path, class: "no-style flags" %></h3>
       </div>
     <% else %>
       <div>
